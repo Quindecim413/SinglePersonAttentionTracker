@@ -1,0 +1,8 @@
+build
+dist
+res
+useless_tests
+venv
+*.spec
+**/__pycache__
+docs/**

@@ -1,0 +1,1417 @@
+2024-02-22 15:57:28,964 - ERROR - An error occurred: 'PySide6.Qt3DCore.Qt3DCore.QTransform.__init__' called with wrong argument types:
+  PySide6.Qt3DCore.Qt3DCore.QTransform.__init__(AttentionScene3DService)
+Supported signatures:
+  PySide6.Qt3DCore.Qt3DCore.QTransform.__init__(Optional[PySide6.Qt3DCore.Qt3DCore.QNode] = None)
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_configure.py", line 35, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\common\services\attention_scene_3d.py", line 375, in __init__
+    self._scene_tr = Qt3DCore.QTransform(self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'PySide6.Qt3DCore.Qt3DCore.QTransform.__init__' called with wrong argument types:
+  PySide6.Qt3DCore.Qt3DCore.QTransform.__init__(AttentionScene3DService)
+Supported signatures:
+  PySide6.Qt3DCore.Qt3DCore.QTransform.__init__(Optional[PySide6.Qt3DCore.Qt3DCore.QNode] = None)
+2024-02-22 16:00:40,302 - ERROR - An error occurred: 'PySide6.Qt3DCore.Qt3DCore.QTransform.__init__' called with wrong argument types:
+  PySide6.Qt3DCore.Qt3DCore.QTransform.__init__(AttentionScene3DService)
+Supported signatures:
+  PySide6.Qt3DCore.Qt3DCore.QTransform.__init__(Optional[PySide6.Qt3DCore.Qt3DCore.QNode] = None)
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_configure.py", line 38, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\common\services\attention_scene_3d.py", line 375, in __init__
+    self._scene_tr = Qt3DCore.QTransform(self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'PySide6.Qt3DCore.Qt3DCore.QTransform.__init__' called with wrong argument types:
+  PySide6.Qt3DCore.Qt3DCore.QTransform.__init__(AttentionScene3DService)
+Supported signatures:
+  PySide6.Qt3DCore.Qt3DCore.QTransform.__init__(Optional[PySide6.Qt3DCore.Qt3DCore.QNode] = None)
+2024-02-22 16:01:23,050 - ERROR - An error occurred: 'PySide6.Qt3DRender.Qt3DRender.QLayer.__init__' called with wrong argument types:
+  PySide6.Qt3DRender.Qt3DRender.QLayer.__init__(AttentionScene3DService)
+Supported signatures:
+  PySide6.Qt3DRender.Qt3DRender.QLayer.__init__(Optional[PySide6.Qt3DCore.Qt3DCore.QNode] = None)
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_configure.py", line 38, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\common\services\attention_scene_3d.py", line 385, in __init__
+    self._scene_objs_pick_layer = Qt3DRender.QLayer(self)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'PySide6.Qt3DRender.Qt3DRender.QLayer.__init__' called with wrong argument types:
+  PySide6.Qt3DRender.Qt3DRender.QLayer.__init__(AttentionScene3DService)
+Supported signatures:
+  PySide6.Qt3DRender.Qt3DRender.QLayer.__init__(Optional[PySide6.Qt3DCore.Qt3DCore.QNode] = None)
+2024-02-26 19:52:14,418 - ERROR - An error occurred: native Qt signal instance 'videoFrameChanged' is not callable
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_client.py", line 41, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\common\widgets\video_preview.py", line 20, in __init__
+    self.video_service.video_sink().videoFrameChanged(self._observe_video_frame_changed)
+TypeError: native Qt signal instance 'videoFrameChanged' is not callable
+2024-02-26 19:52:41,167 - ERROR - An error occurred: 'PySide6.QtGui.QIcon.__init__' called with wrong argument types:
+  PySide6.QtGui.QIcon.__init__(WindowsPath)
+Supported signatures:
+  PySide6.QtGui.QIcon.__init__()
+  PySide6.QtGui.QIcon.__init__(PySide6.QtGui.QIconEngine)
+  PySide6.QtGui.QIcon.__init__(str)
+  PySide6.QtGui.QIcon.__init__(Union[PySide6.QtGui.QIcon, PySide6.QtGui.QPixmap])
+  PySide6.QtGui.QIcon.__init__(Union[PySide6.QtGui.QPixmap, PySide6.QtGui.QImage, str])
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_client.py", line 41, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\common\widgets\camera_configure.py", line 53, in __init__
+    self.setup_ui()
+  File "h:\Умник\Qt3d based tracker\common\widgets\camera_configure.py", line 86, in setup_ui
+    self._rotate_cw_btn = QPushButton(QIcon(src_dir / 'cw_arrow.png'))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'PySide6.QtGui.QIcon.__init__' called with wrong argument types:
+  PySide6.QtGui.QIcon.__init__(WindowsPath)
+Supported signatures:
+  PySide6.QtGui.QIcon.__init__()
+  PySide6.QtGui.QIcon.__init__(PySide6.QtGui.QIconEngine)
+  PySide6.QtGui.QIcon.__init__(str)
+  PySide6.QtGui.QIcon.__init__(Union[PySide6.QtGui.QIcon, PySide6.QtGui.QPixmap])
+  PySide6.QtGui.QIcon.__init__(Union[PySide6.QtGui.QPixmap, PySide6.QtGui.QImage, str])
+2024-02-26 20:10:48,466 - ERROR - An error occurred: 'PySide6.QtWidgets.QPushButton.__init__' called with wrong argument types:
+  PySide6.QtWidgets.QPushButton.__init__(QIcon)
+Supported signatures:
+  PySide6.QtWidgets.QPushButton.__init__(Union[PySide6.QtGui.QIcon, PySide6.QtGui.QPixmap], str, Optional[PySide6.QtWidgets.QWidget] = None)
+  PySide6.QtWidgets.QPushButton.__init__(Optional[PySide6.QtWidgets.QWidget] = None)
+  PySide6.QtWidgets.QPushButton.__init__(str, Optional[PySide6.QtWidgets.QWidget] = None)
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_client.py", line 41, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\common\widgets\camera_configure.py", line 53, in __init__
+    self.setup_ui()
+  File "h:\Умник\Qt3d based tracker\common\widgets\camera_configure.py", line 86, in setup_ui
+    self._rotate_cw_btn = QPushButton(QIcon(str(src_dir / 'cw_arrow.png')))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'PySide6.QtWidgets.QPushButton.__init__' called with wrong argument types:
+  PySide6.QtWidgets.QPushButton.__init__(QIcon)
+Supported signatures:
+  PySide6.QtWidgets.QPushButton.__init__(Union[PySide6.QtGui.QIcon, PySide6.QtGui.QPixmap], str, Optional[PySide6.QtWidgets.QWidget] = None)
+  PySide6.QtWidgets.QPushButton.__init__(Optional[PySide6.QtWidgets.QWidget] = None)
+  PySide6.QtWidgets.QPushButton.__init__(str, Optional[PySide6.QtWidgets.QWidget] = None)
+2024-02-26 20:11:50,114 - ERROR - An error occurred: 'ClientMainWindow' object has no attribute 'page_camera_layout'
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_client.py", line 41, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\client_app\main\view.py", line 17, in __init__
+    self.page_camera_layout.addWidget(camera_page)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ClientMainWindow' object has no attribute 'page_camera_layout'
+2024-02-26 20:33:54,307 - ERROR - An error occurred: QLabel.setAlignment() takes exactly one argument (2 given)
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_client.py", line 42, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\common\widgets\camera_configure.py", line 53, in __init__
+    self.setup_ui()
+  File "h:\Умник\Qt3d based tracker\common\widgets\camera_configure.py", line 98, in setup_ui
+    info_lbl.setAlignment(Qt.AlignmentFlag.AlignHCenter, Qt.AlignmentFlag.AlignTop)
+TypeError: QLabel.setAlignment() takes exactly one argument (2 given)
+2024-02-26 22:17:53,023 - ERROR - An error occurred: 'CameraConfigureWidget' object has no attribute 'bg'
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_client.py", line 42, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\common\widgets\camera_configure.py", line 79, in __init__
+    self.set_video_devices_options(self.vm.camera_device_names())
+  File "h:\Умник\Qt3d based tracker\common\widgets\camera_configure.py", line 102, in set_video_devices_options
+    btns = self.bg.buttons()
+           ^^^^^^^
+AttributeError: 'CameraConfigureWidget' object has no attribute 'bg'
+2024-02-27 20:18:32,394 - ERROR - An error occurred: 'AttentionSceneInitializerService' object has no attribute 'scene_objs_data_loading_failed'
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\common\services\attention_scene_initializer.py", line 147, in set_scene_3d_source
+    obj_data._check_includes_relative_pathes()
+TypeError: OBJData._check_includes_relative_pathes() missing 1 required positional argument: 'includes'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_client.py", line 42, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "H:\Умник\Qt3d based tracker\client_app\fake_tracking_page.py", line 21, in __init__
+    scene_initializer_service.set_description_source(Path('H:/Умник/Qt3d based tracker/res/описание 2.json'))
+  File "H:\Умник\Qt3d based tracker\common\services\attention_scene_initializer.py", line 179, in set_description_source
+    self.set_description(desc)
+  File "H:\Умник\Qt3d based tracker\common\services\attention_scene_initializer.py", line 166, in set_description
+    self.set_scene_3d_source(description.scene_objs_file_name)
+  File "H:\Умник\Qt3d based tracker\common\services\attention_scene_initializer.py", line 150, in set_scene_3d_source
+    self.scene_objs_data_loading_failed.emit(f"Не поддерживаемый формат файла модели, недопустимое расположение файлов ресурсов относительно корневого файла {obj_file_path}"+":\n"+str(e)+traceback.format_exc())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AttentionSceneInitializerService' object has no attribute 'scene_objs_data_loading_failed'
+2024-02-27 20:50:52,528 - ERROR - An error occurred: 'PySide6.QtWidgets.QScrollArea.setWidget' called with wrong argument types:
+  PySide6.QtWidgets.QScrollArea.setWidget(Singleton)
+Supported signatures:
+  PySide6.QtWidgets.QScrollArea.setWidget(PySide6.QtWidgets.QWidget)
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_client.py", line 42, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\client_app\main\view.py", line 28, in __init__
+    self.page_tracking_layout.addWidget(PageContentWidget(tracking_page))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h:\Умник\Qt3d based tracker\client_app\main\view.py", line 17, in __init__
+    self.setWidget(content_widget)
+TypeError: 'PySide6.QtWidgets.QScrollArea.setWidget' called with wrong argument types:
+  PySide6.QtWidgets.QScrollArea.setWidget(Singleton)
+Supported signatures:
+  PySide6.QtWidgets.QScrollArea.setWidget(PySide6.QtWidgets.QWidget)
+2024-02-28 13:40:29,218 - ERROR - An error occurred: SceneWindow.__init__() missing 1 required positional argument: 'scene3d'
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_client.py", line 42, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+TypeError: SceneWindow.__init__() missing 1 required positional argument: 'scene3d'
+2024-02-28 13:41:33,521 - ERROR - An error occurred: SceneWindow.__init__() got an unexpected keyword argument 'scene3d'
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_client.py", line 42, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+TypeError: SceneWindow.__init__() got an unexpected keyword argument 'scene3d'
+2024-03-01 20:14:42,550 - ERROR - An error occurred: 'DynamicContainer' object has no attribute 'app_view'
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_configure.py", line 42, in <module>
+    widg = container.app_view()
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'DynamicContainer' object has no attribute 'app_view'
+2024-03-01 20:15:26,648 - ERROR - An error occurred: AttentionSceneInitializerService.__init__() missing 1 required positional argument: 'scene_repo'
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_configure.py", line 42, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+TypeError: AttentionSceneInitializerService.__init__() missing 1 required positional argument: 'scene_repo'
+2024-03-01 20:16:08,614 - ERROR - An error occurred: AttentionProjectsRepo.__init__() missing 1 required positional argument: 'storage_dir'
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_configure.py", line 42, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+TypeError: AttentionProjectsRepo.__init__() missing 1 required positional argument: 'storage_dir'
+2024-03-01 20:23:18,244 - ERROR - An error occurred: H:\Умник\Qt3d based tracker\configurator_app\docs\configurator\projects is not an instance of <class 'str'>
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_configure.py", line 42, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 839, in dependency_injector.providers.Dependency.__call__
+  File "src/dependency_injector/providers.pyx", line 955, in dependency_injector.providers.Dependency._check_instance_type
+dependency_injector.errors.Error: H:\Умник\Qt3d based tracker\configurator_app\docs\configurator\projects is not an instance of <class 'str'>
+2024-03-01 20:30:15,554 - ERROR - An error occurred: ConfigureProjDataVM.__init__() missing 1 required positional argument: 'project_data'
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_configure.py", line 42, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+TypeError: ConfigureProjDataVM.__init__() missing 1 required positional argument: 'project_data'
+2024-03-01 20:31:56,661 - ERROR - An error occurred: 'str' object has no attribute 'iterdir'
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_configure.py", line 42, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "H:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 25, in __init__
+    for proj_data in self.vm.projects_data():
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Умник\Qt3d based tracker\configurator_app\projects_data_page\vm.py", line 36, in projects_data
+    return self.attention_projects_repo.projects()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Умник\Qt3d based tracker\common\services\scene\repo.py", line 31, in projects
+    proj_dirs = list_directories_with_numeric_name(self.storage_dir)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Умник\Qt3d based tracker\common\services\scene\repo.py", line 18, in list_directories_with_numeric_name
+    return [d for d in dir.iterdir() if d.is_dir() and dir.name.isnumeric()]
+                       ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'iterdir'
+2024-03-01 20:32:52,765 - ERROR - An error occurred: H:\Умник\Qt3d based tracker\configurator_app\docs\configurator\projects is not an instance of <class 'pathlib.Path'>
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_configure.py", line 42, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 839, in dependency_injector.providers.Dependency.__call__
+  File "src/dependency_injector/providers.pyx", line 955, in dependency_injector.providers.Dependency._check_instance_type
+dependency_injector.errors.Error: H:\Умник\Qt3d based tracker\configurator_app\docs\configurator\projects is not an instance of <class 'pathlib.Path'>
+2024-03-01 20:33:13,378 - ERROR - An error occurred: [WinError 3] Системе не удается найти указанный путь: 'H:\\Умник\\Qt3d based tracker\\configurator_app\\docs\\configurator\\projects'
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_configure.py", line 42, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "H:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 25, in __init__
+    for proj_data in self.vm.projects_data():
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Умник\Qt3d based tracker\configurator_app\projects_data_page\vm.py", line 36, in projects_data
+    return self.attention_projects_repo.projects()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Умник\Qt3d based tracker\common\services\scene\repo.py", line 31, in projects
+    proj_dirs = list_directories_with_numeric_name(self.storage_dir)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Умник\Qt3d based tracker\common\services\scene\repo.py", line 18, in list_directories_with_numeric_name
+    return [d for d in dir.iterdir() if d.is_dir() and dir.name.isnumeric()]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Умник\Qt3d based tracker\common\services\scene\repo.py", line 18, in <listcomp>
+    return [d for d in dir.iterdir() if d.is_dir() and dir.name.isnumeric()]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\decim\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 931, in iterdir
+    for name in os.listdir(self):
+                ^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'H:\\Умник\\Qt3d based tracker\\configurator_app\\docs\\configurator\\projects'
+2024-03-01 20:33:53,615 - ERROR - An error occurred: [WinError 3] Системе не удается найти указанный путь: 'H:\\Умник\\Qt3d based tracker\\configurator_app\\docs\\configurator\\projects'
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_configure.py", line 42, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "H:\Умник\Qt3d based tracker\common\services\scene\repo.py", line 29, in __init__
+    self.storage_dir.mkdir(exist_ok=True)
+  File "C:\Users\decim\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1116, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 3] Системе не удается найти указанный путь: 'H:\\Умник\\Qt3d based tracker\\configurator_app\\docs\\configurator\\projects'
+2024-03-01 21:18:35,516 - ERROR - An error occurred: 'NoneType' object has no attribute 'setContentsMargins'
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_configure.py", line 42, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "H:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 21, in __init__
+    self.setup_ui()
+  File "H:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 38, in setup_ui
+    self.preview_configure_widget = PreviewExpandWidget()
+                                    ^^^^^^^^^^^^^^^^^^^^^
+  File "H:\Умник\Qt3d based tracker\common\widgets\preview_expand.py", line 68, in __init__
+    self.layout().setContentsMargins(0,0,0,0)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'setContentsMargins'
+2024-03-02 19:21:39,506 - ERROR - An error occurred: '__init__' method of object's base class (AttentionProjectData) not called.
+Traceback (most recent call last):
+  File "H:\Умник\Qt3d based tracker\app_configure.py", line 41, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "H:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 28, in __init__
+    self.add_proj_data(proj_data)
+  File "H:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 35, in add_proj_data
+    self.preview_configure_widget.add_preview_item(self.preview_item_factory(proj_data))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "H:\Умник\Qt3d based tracker\configurator_app\projects_data_page\preview_item.py", line 18, in __init__
+    self.proj_data.removed.connect(self.remove_element)
+RuntimeError: '__init__' method of object's base class (AttentionProjectData) not called.
+2024-03-03 00:59:26,646 - ERROR - An error occurred: 'Provide' object has no attribute 'attention_project_changed'
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_configure.py", line 41, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 33, in __init__
+    self.add_proj_data(proj_data)
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 40, in add_proj_data
+    self.preview_configure_widget.add_preview_item(self.preview_item_factory(proj_data))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\preview_item.py", line 17, in __init__
+    preview_widget = preview_widget_factory(self.proj_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\common\widgets\preview_proj_data.py", line 41, in __init__
+    self.scene_initializer.attention_project_changed.connect(self._observe_attention_project_changed)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Provide' object has no attribute 'attention_project_changed'
+2024-03-03 01:01:11,698 - ERROR - An error occurred: 'Provide' object has no attribute 'attention_project_changed'
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_configure.py", line 41, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 33, in __init__
+    self.add_proj_data(proj_data)
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 40, in add_proj_data
+    self.preview_configure_widget.add_preview_item(self.preview_item_factory(proj_data))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\preview_item.py", line 17, in __init__
+    preview_widget = preview_widget_factory(self.proj_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\common\widgets\preview_proj_data.py", line 41, in __init__
+    self.scene_initializer.attention_project_changed.connect(self._observe_attention_project_changed)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Provide' object has no attribute 'attention_project_changed'
+2024-03-03 01:04:39,040 - ERROR - An error occurred: 'Provide' object has no attribute 'attention_project_changed'
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_configure.py", line 41, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 33, in __init__
+    self.add_proj_data(proj_data)
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 40, in add_proj_data
+    self.preview_configure_widget.add_preview_item(self.preview_item_factory(proj_data))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\preview_item.py", line 17, in __init__
+    preview_widget = preview_widget_factory(self.proj_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\common\widgets\preview_proj_data.py", line 41, in __init__
+    self.scene_initializer.attention_project_changed.connect(self._observe_attention_project_changed)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Provide' object has no attribute 'attention_project_changed'
+2024-03-03 01:05:03,907 - ERROR - An error occurred: 'Provide' object has no attribute 'attention_project_changed'
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_configure.py", line 41, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 33, in __init__
+    self.add_proj_data(proj_data)
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 40, in add_proj_data
+    self.preview_configure_widget.add_preview_item(self.preview_item_factory(proj_data))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\preview_item.py", line 17, in __init__
+    preview_widget = preview_widget_factory(self.proj_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\common\widgets\preview_proj_data.py", line 41, in __init__
+    self.scene_initializer.attention_project_changed.connect(self._observe_attention_project_changed)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Provide' object has no attribute 'attention_project_changed'
+2024-03-03 01:05:53,224 - ERROR - An error occurred: 'Provide' object has no attribute 'attention_project_changed'
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_configure.py", line 41, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 33, in __init__
+    self.add_proj_data(proj_data)
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 40, in add_proj_data
+    self.preview_configure_widget.add_preview_item(self.preview_item_factory(proj_data))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\preview_item.py", line 17, in __init__
+    preview_widget = preview_widget_factory(self.proj_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\common\widgets\preview_proj_data.py", line 41, in __init__
+    self.scene_initializer.attention_project_changed.connect(self._observe_attention_project_changed)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Provide' object has no attribute 'attention_project_changed'
+2024-03-03 01:06:33,674 - ERROR - An error occurred: 'Provide' object has no attribute 'attention_project_changed'
+Traceback (most recent call last):
+  File "h:\Умник\Qt3d based tracker\app_configure.py", line 41, in <module>
+    widg = container.configure_window()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 3049, in dependency_injector.providers.Singleton._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 577, in dependency_injector.providers.__call
+  File "src/dependency_injector/providers.pxd", line 445, in dependency_injector.providers.__provide_keyword_args
+  File "src/dependency_injector/providers.pxd", line 365, in dependency_injector.providers.__get_value
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 33, in __init__
+    self.add_proj_data(proj_data)
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\view.py", line 40, in add_proj_data
+    self.preview_configure_widget.add_preview_item(self.preview_item_factory(proj_data))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "h:\Умник\Qt3d based tracker\configurator_app\projects_data_page\preview_item.py", line 17, in __init__
+    preview_widget = preview_widget_factory(self.proj_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/dependency_injector/providers.pyx", line 225, in dependency_injector.providers.Provider.__call__
+  File "src/dependency_injector/providers.pyx", line 2689, in dependency_injector.providers.Factory._provide
+  File "src/dependency_injector/providers.pxd", line 650, in dependency_injector.providers.__factory_call
+  File "src/dependency_injector/providers.pxd", line 608, in dependency_injector.providers.__call
+  File "src/dependency_injector/_cwiring.pyx", line 28, in dependency_injector._cwiring._get_sync_patched._patched
+  File "h:\Умник\Qt3d based tracker\common\widgets\preview_proj_data.py", line 41, in __init__
+    self.scene_initializer.attention_project_changed.connect(self._observe_attention_project_changed)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Provide' object has no attribute 'attention_project_changed'
+2024-03-03 02:00:12,269 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 02:00:12,296 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 02:00:12,297 - DEBUG - interactive is False
+2024-03-03 02:00:12,297 - DEBUG - platform is win32
+2024-03-03 02:00:12,587 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 02:00:12,594 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 17:34:11,961 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 17:34:11,969 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 17:34:11,970 - DEBUG - interactive is False
+2024-03-03 17:34:11,970 - DEBUG - platform is win32
+2024-03-03 17:34:12,068 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 17:34:12,074 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 17:49:21,603 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 17:49:21,607 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 17:49:21,608 - DEBUG - interactive is False
+2024-03-03 17:49:21,608 - DEBUG - platform is win32
+2024-03-03 17:49:21,652 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 17:49:21,654 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 17:51:10,888 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 17:51:10,893 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 17:51:10,894 - DEBUG - interactive is False
+2024-03-03 17:51:10,894 - DEBUG - platform is win32
+2024-03-03 17:51:10,937 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 17:51:10,939 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 17:52:28,622 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 17:52:28,626 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 17:52:28,627 - DEBUG - interactive is False
+2024-03-03 17:52:28,627 - DEBUG - platform is win32
+2024-03-03 17:52:28,672 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 17:52:28,673 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 18:07:14,278 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 18:07:14,282 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 18:07:14,283 - DEBUG - interactive is False
+2024-03-03 18:07:14,283 - DEBUG - platform is win32
+2024-03-03 18:07:14,328 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 18:07:14,329 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 18:11:15,571 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 18:11:15,575 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 18:11:15,576 - DEBUG - interactive is False
+2024-03-03 18:11:15,576 - DEBUG - platform is win32
+2024-03-03 18:11:15,620 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 18:11:15,621 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 18:12:17,961 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 18:12:17,965 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 18:12:17,966 - DEBUG - interactive is False
+2024-03-03 18:12:17,966 - DEBUG - platform is win32
+2024-03-03 18:12:18,009 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 18:12:18,011 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 18:13:34,951 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 18:13:34,955 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 18:13:34,956 - DEBUG - interactive is False
+2024-03-03 18:13:34,956 - DEBUG - platform is win32
+2024-03-03 18:13:35,000 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 18:13:35,001 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 18:15:48,326 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 18:15:48,330 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 18:15:48,331 - DEBUG - interactive is False
+2024-03-03 18:15:48,331 - DEBUG - platform is win32
+2024-03-03 18:15:48,373 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 18:15:48,375 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 19:27:59,042 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 19:27:59,046 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 19:27:59,047 - DEBUG - interactive is False
+2024-03-03 19:27:59,047 - DEBUG - platform is win32
+2024-03-03 19:27:59,089 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 19:27:59,091 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 19:47:18,226 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 19:47:18,230 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 19:47:18,231 - DEBUG - interactive is False
+2024-03-03 19:47:18,231 - DEBUG - platform is win32
+2024-03-03 19:47:18,275 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 19:47:18,277 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 19:51:01,695 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 19:51:01,699 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 19:51:01,700 - DEBUG - interactive is False
+2024-03-03 19:51:01,700 - DEBUG - platform is win32
+2024-03-03 19:51:01,743 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 19:51:01,745 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 19:51:39,179 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 19:51:39,182 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 19:51:39,183 - DEBUG - interactive is False
+2024-03-03 19:51:39,184 - DEBUG - platform is win32
+2024-03-03 19:51:39,228 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 19:51:39,230 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 19:57:47,776 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 19:57:47,780 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 19:57:47,781 - DEBUG - interactive is False
+2024-03-03 19:57:47,781 - DEBUG - platform is win32
+2024-03-03 19:57:47,828 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 19:57:47,829 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 20:06:42,213 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 20:06:42,217 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:06:42,218 - DEBUG - interactive is False
+2024-03-03 20:06:42,218 - DEBUG - platform is win32
+2024-03-03 20:06:42,263 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:06:42,264 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 20:37:53,982 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 20:37:53,986 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:37:53,987 - DEBUG - interactive is False
+2024-03-03 20:37:53,987 - DEBUG - platform is win32
+2024-03-03 20:37:54,030 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:37:54,032 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 20:39:25,077 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 20:39:25,081 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:39:25,082 - DEBUG - interactive is False
+2024-03-03 20:39:25,082 - DEBUG - platform is win32
+2024-03-03 20:39:25,126 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:39:25,128 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 20:40:04,468 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 20:40:04,472 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:40:04,473 - DEBUG - interactive is False
+2024-03-03 20:40:04,473 - DEBUG - platform is win32
+2024-03-03 20:40:04,516 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:40:04,518 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 20:45:51,405 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 20:45:51,409 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:45:51,410 - DEBUG - interactive is False
+2024-03-03 20:45:51,410 - DEBUG - platform is win32
+2024-03-03 20:45:51,454 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:45:51,456 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 20:46:45,658 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 20:46:45,662 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:46:45,663 - DEBUG - interactive is False
+2024-03-03 20:46:45,663 - DEBUG - platform is win32
+2024-03-03 20:46:45,707 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:46:45,709 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 20:48:10,152 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 20:48:10,156 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:48:10,157 - DEBUG - interactive is False
+2024-03-03 20:48:10,157 - DEBUG - platform is win32
+2024-03-03 20:48:10,200 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:48:10,202 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 20:50:50,115 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 20:50:50,119 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:50:50,120 - DEBUG - interactive is False
+2024-03-03 20:50:50,120 - DEBUG - platform is win32
+2024-03-03 20:50:50,163 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:50:50,165 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 20:52:26,561 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 20:52:26,565 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:52:26,566 - DEBUG - interactive is False
+2024-03-03 20:52:26,566 - DEBUG - platform is win32
+2024-03-03 20:52:26,610 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 20:52:26,611 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 21:05:05,664 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 21:05:05,669 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 21:05:05,670 - DEBUG - interactive is False
+2024-03-03 21:05:05,670 - DEBUG - platform is win32
+2024-03-03 21:05:05,713 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 21:05:05,714 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-03 21:05:45,706 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-03 21:05:45,709 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-03 21:05:45,710 - DEBUG - interactive is False
+2024-03-03 21:05:45,710 - DEBUG - platform is win32
+2024-03-03 21:05:45,754 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-03 21:05:45,756 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 15:50:21,472 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 15:50:21,513 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 15:50:21,514 - DEBUG - interactive is False
+2024-03-04 15:50:21,514 - DEBUG - platform is win32
+2024-03-04 15:50:21,778 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 15:50:21,791 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 15:57:59,719 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 15:57:59,723 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 15:57:59,724 - DEBUG - interactive is False
+2024-03-04 15:57:59,724 - DEBUG - platform is win32
+2024-03-04 15:57:59,769 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 15:57:59,771 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:00:16,301 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:00:16,305 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:00:16,306 - DEBUG - interactive is False
+2024-03-04 16:00:16,306 - DEBUG - platform is win32
+2024-03-04 16:00:16,350 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:00:16,352 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:04:06,651 - DEBUG - matplotlib data path: h:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:04:06,663 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:04:06,667 - DEBUG - interactive is False
+2024-03-04 16:04:06,667 - DEBUG - platform is win32
+2024-03-04 16:04:06,796 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:04:06,799 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:04:08,966 - DEBUG - Loaded backend qtagg version 6.6.1.
+2024-03-04 16:04:32,055 - DEBUG - matplotlib data path: h:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:04:32,067 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:04:32,070 - DEBUG - interactive is False
+2024-03-04 16:04:32,070 - DEBUG - platform is win32
+2024-03-04 16:04:32,201 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:04:32,204 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:04:34,121 - DEBUG - Loaded backend qtagg version 6.6.1.
+2024-03-04 16:08:11,415 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:08:11,419 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:08:11,420 - DEBUG - interactive is False
+2024-03-04 16:08:11,420 - DEBUG - platform is win32
+2024-03-04 16:08:11,464 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:08:11,466 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:09:39,825 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:09:39,829 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:09:39,830 - DEBUG - interactive is False
+2024-03-04 16:09:39,830 - DEBUG - platform is win32
+2024-03-04 16:09:39,872 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:09:39,874 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:10:05,712 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:10:05,716 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:10:05,717 - DEBUG - interactive is False
+2024-03-04 16:10:05,717 - DEBUG - platform is win32
+2024-03-04 16:10:05,762 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:10:05,763 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:10:39,763 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:10:39,767 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:10:39,768 - DEBUG - interactive is False
+2024-03-04 16:10:39,768 - DEBUG - platform is win32
+2024-03-04 16:10:39,814 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:10:39,816 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:28:44,367 - DEBUG - matplotlib data path: h:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:28:44,378 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:28:44,382 - DEBUG - interactive is False
+2024-03-04 16:28:44,382 - DEBUG - platform is win32
+2024-03-04 16:28:44,511 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:28:44,514 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:28:46,458 - DEBUG - Loaded backend qtagg version 6.6.1.
+2024-03-04 16:33:09,042 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:33:09,045 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:33:09,046 - DEBUG - interactive is False
+2024-03-04 16:33:09,047 - DEBUG - platform is win32
+2024-03-04 16:33:09,091 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:33:09,093 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:33:11,849 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:34:06,248 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:34:06,252 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:34:06,253 - DEBUG - interactive is False
+2024-03-04 16:34:06,253 - DEBUG - platform is win32
+2024-03-04 16:34:06,298 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:34:06,299 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:34:09,401 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:35:26,157 - DEBUG - matplotlib data path: H:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:35:26,161 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:35:26,162 - DEBUG - interactive is False
+2024-03-04 16:35:26,162 - DEBUG - platform is win32
+2024-03-04 16:35:26,206 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:35:26,207 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:35:36,234 - DEBUG - matplotlib data path: h:\Умник\Qt3d based tracker\venv\Lib\site-packages\matplotlib\mpl-data
+2024-03-04 16:35:36,245 - DEBUG - CONFIGDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:35:36,249 - DEBUG - interactive is False
+2024-03-04 16:35:36,249 - DEBUG - platform is win32
+2024-03-04 16:35:36,377 - DEBUG - CACHEDIR=C:\Users\decim\.matplotlib
+2024-03-04 16:35:36,380 - DEBUG - Using fontManager instance from C:\Users\decim\.matplotlib\fontlist-v330.json
+2024-03-04 16:35:47,231 - DEBUG - Loaded backend qtagg version 6.6.1.
+2024-03-04 16:36:00,821 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:45:46,830 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:47:44,141 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:49:12,157 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:49:14,134 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:49:14,717 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:49:14,884 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:49:15,050 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:49:15,212 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:49:16,300 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:50:30,204 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 16:51:12,854 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/res/my workspace srgb.obj')
+2024-03-04 17:13:43,135 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/res/my workspace srgb.obj')
+2024-03-04 17:21:12,690 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/res/my workspace srgb.obj')
+2024-03-04 17:23:25,208 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/res/my workspace srgb.obj')
+2024-03-04 17:23:43,176 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/res/my workspace srgb.obj')
+2024-03-04 17:25:29,280 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:25:31,406 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:25:39,461 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:25:51,877 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:26:25,516 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:26:44,849 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:27:13,029 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:28:44,187 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:28:46,149 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:32:14,994 - INFO - removing old scene_ibjs
+2024-03-04 17:32:14,994 - INFO - removing old workspaces
+2024-03-04 17:32:14,994 - INFO - removing old scene_ibjs
+2024-03-04 17:32:14,994 - INFO - removing old workspaces
+2024-03-04 17:32:14,994 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:32:17,246 - INFO - removing old scene_ibjs
+2024-03-04 17:32:17,248 - INFO - removing old workspaces
+2024-03-04 17:32:17,251 - INFO - removing old scene_ibjs
+2024-03-04 17:32:17,252 - INFO - removing old workspaces
+2024-03-04 17:32:17,252 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:32:33,361 - INFO - removing old scene_ibjs
+2024-03-04 17:32:33,362 - INFO - removing old workspaces
+2024-03-04 17:32:33,366 - INFO - removing old scene_ibjs
+2024-03-04 17:32:33,366 - INFO - removing old workspaces
+2024-03-04 17:32:33,367 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:33:07,142 - INFO - removing old scene_ibjs
+2024-03-04 17:33:07,142 - INFO - removing old workspaces
+2024-03-04 17:33:07,142 - INFO - removing old scene_ibjs
+2024-03-04 17:33:07,142 - INFO - removing old workspaces
+2024-03-04 17:33:07,143 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:35:57,819 - INFO - removing old scene_ibjs
+2024-03-04 17:35:57,820 - INFO - removing old workspaces
+2024-03-04 17:36:09,607 - INFO - removing old scene_ibjs
+2024-03-04 17:36:09,607 - INFO - removing old workspaces
+2024-03-04 17:36:59,804 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:40:11,948 - INFO - removing old scene_ibjs
+2024-03-04 17:40:11,948 - INFO - removing old workspaces
+2024-03-04 17:40:11,948 - INFO - removing old scene_ibjs
+2024-03-04 17:40:11,948 - INFO - removing old workspaces
+2024-03-04 17:40:11,949 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:40:14,091 - INFO - removing old scene_ibjs
+2024-03-04 17:40:14,093 - INFO - removing old workspaces
+2024-03-04 17:40:14,097 - INFO - removing old scene_ibjs
+2024-03-04 17:40:14,097 - INFO - removing old workspaces
+2024-03-04 17:40:14,097 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:48:26,396 - INFO - removing old workspaces
+2024-03-04 17:48:26,396 - INFO - removing old scene_ibjs
+2024-03-04 17:48:26,396 - INFO - removing old workspaces
+2024-03-04 17:48:26,396 - INFO - removing old scene_ibjs
+2024-03-04 17:48:26,396 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:48:28,065 - INFO - removing old workspaces
+2024-03-04 17:48:28,068 - INFO - removing old scene_ibjs
+2024-03-04 17:48:28,069 - INFO - removing old workspaces
+2024-03-04 17:48:28,070 - INFO - removing old scene_ibjs
+2024-03-04 17:48:28,070 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:49:13,948 - INFO - removing old workspaces
+2024-03-04 17:49:13,948 - INFO - removing old scene_ibjs
+2024-03-04 17:49:13,948 - INFO - removing old workspaces
+2024-03-04 17:49:13,949 - INFO - removing old scene_ibjs
+2024-03-04 17:49:13,949 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:49:15,704 - INFO - removing old workspaces
+2024-03-04 17:49:15,708 - INFO - removing old scene_ibjs
+2024-03-04 17:49:15,710 - INFO - removing old workspaces
+2024-03-04 17:49:15,710 - INFO - removing old scene_ibjs
+2024-03-04 17:49:15,710 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:49:23,265 - INFO - removing old workspaces
+2024-03-04 17:49:23,265 - INFO - removing old scene_ibjs
+2024-03-04 17:51:33,536 - INFO - removing old workspaces
+2024-03-04 17:51:33,536 - INFO - removing old scene_ibjs
+2024-03-04 17:51:33,537 - INFO - removing old workspaces
+2024-03-04 17:51:33,537 - INFO - removing old scene_ibjs
+2024-03-04 17:51:33,537 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:51:37,224 - INFO - removing old workspaces
+2024-03-04 17:51:37,227 - INFO - removing old scene_ibjs
+2024-03-04 17:51:37,229 - INFO - removing entities
+2024-03-04 17:51:37,229 - INFO - removing old workspaces
+2024-03-04 17:51:37,229 - INFO - removing old scene_ibjs
+2024-03-04 17:51:37,230 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:51:51,379 - INFO - removing old workspaces
+2024-03-04 17:51:51,382 - INFO - removing old scene_ibjs
+2024-03-04 17:56:02,862 - INFO - removing old workspaces
+2024-03-04 17:56:02,862 - INFO - removing old scene_objs
+2024-03-04 17:56:02,863 - INFO - removing old workspaces
+2024-03-04 17:56:02,863 - INFO - removing old scene_objs
+2024-03-04 17:56:02,863 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:56:04,606 - INFO - removing old workspaces
+2024-03-04 17:56:04,610 - INFO - removing old scene_objs
+2024-03-04 17:56:04,611 - INFO - removing entities
+2024-03-04 17:56:04,612 - INFO - removing old workspaces
+2024-03-04 17:56:04,612 - INFO - removing old scene_objs
+2024-03-04 17:56:04,612 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:56:10,152 - INFO - removing old workspaces
+2024-03-04 17:56:10,155 - INFO - removing old scene_objs
+2024-03-04 17:57:24,615 - INFO - removing old workspaces
+2024-03-04 17:57:24,615 - INFO - removing old scene_objs
+2024-03-04 17:57:24,616 - INFO - removing old workspaces
+2024-03-04 17:57:24,616 - INFO - removing old scene_objs
+2024-03-04 17:57:24,617 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:57:35,365 - INFO - removing old workspaces
+2024-03-04 17:57:35,368 - INFO - removing old scene_objs
+2024-03-04 17:57:35,371 - INFO - removing entities
+2024-03-04 17:57:35,372 - INFO - removing old workspaces
+2024-03-04 17:57:35,372 - INFO - removing old scene_objs
+2024-03-04 17:57:35,372 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 17:57:59,550 - INFO - removing old workspaces
+2024-03-04 17:57:59,550 - INFO - removing old scene_objs
+2024-03-04 17:57:59,551 - INFO - removing entities
+2024-03-04 17:59:56,620 - INFO - removing old workspaces
+2024-03-04 17:59:56,620 - INFO - removing old scene_objs
+2024-03-04 17:59:56,621 - INFO - removing old workspaces
+2024-03-04 17:59:56,621 - INFO - removing old scene_objs
+2024-03-04 17:59:56,622 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:00:00,622 - INFO - removing old workspaces
+2024-03-04 18:00:00,625 - INFO - removing old scene_objs
+2024-03-04 18:00:00,627 - INFO - removing entities
+2024-03-04 18:00:00,628 - INFO - removing old workspaces
+2024-03-04 18:00:00,628 - INFO - removing old scene_objs
+2024-03-04 18:00:00,628 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:00:11,905 - INFO - removing old workspaces
+2024-03-04 18:00:11,909 - INFO - removing old scene_objs
+2024-03-04 18:00:11,911 - INFO - removing entities
+2024-03-04 18:00:11,911 - INFO - removing old workspaces
+2024-03-04 18:00:11,912 - INFO - removing old scene_objs
+2024-03-04 18:00:11,912 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:07:20,659 - INFO - removing old workspaces
+2024-03-04 18:07:20,659 - INFO - removing old scene_objs
+2024-03-04 18:07:20,660 - INFO - removing old workspaces
+2024-03-04 18:07:20,660 - INFO - removing old scene_objs
+2024-03-04 18:07:20,661 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:07:25,304 - INFO - removing old workspaces
+2024-03-04 18:07:25,307 - INFO - removing old scene_objs
+2024-03-04 18:07:25,310 - INFO - removing entities
+2024-03-04 18:07:25,310 - INFO - removing old workspaces
+2024-03-04 18:07:25,310 - INFO - removing old scene_objs
+2024-03-04 18:07:25,311 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:07:44,539 - INFO - removing old workspaces
+2024-03-04 18:07:44,539 - INFO - removing old scene_objs
+2024-03-04 18:07:44,539 - INFO - removing old workspaces
+2024-03-04 18:07:44,539 - INFO - removing old scene_objs
+2024-03-04 18:07:44,540 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:08:04,054 - INFO - removing old workspaces
+2024-03-04 18:08:04,054 - INFO - removing old scene_objs
+2024-03-04 18:08:04,055 - INFO - removing entities
+2024-03-04 18:08:04,055 - INFO - removing old workspaces
+2024-03-04 18:08:04,055 - INFO - removing old scene_objs
+2024-03-04 18:08:04,056 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:09:23,891 - INFO - removing old workspaces
+2024-03-04 18:09:23,891 - INFO - removing old scene_objs
+2024-03-04 18:09:23,892 - INFO - removing old workspaces
+2024-03-04 18:09:23,892 - INFO - removing old scene_objs
+2024-03-04 18:09:23,893 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:09:28,758 - INFO - removing old workspaces
+2024-03-04 18:09:28,758 - INFO - removing old scene_objs
+2024-03-04 18:09:28,759 - INFO - removing entities
+2024-03-04 18:09:28,759 - INFO - removing old workspaces
+2024-03-04 18:09:28,760 - INFO - removing old scene_objs
+2024-03-04 18:09:28,760 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:09:51,514 - INFO - removing old workspaces
+2024-03-04 18:09:51,514 - INFO - removing old scene_objs
+2024-03-04 18:09:51,515 - INFO - removing old workspaces
+2024-03-04 18:09:51,515 - INFO - removing old scene_objs
+2024-03-04 18:09:51,515 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:09:57,010 - INFO - removing old workspaces
+2024-03-04 18:09:57,010 - INFO - removing old scene_objs
+2024-03-04 18:09:57,010 - INFO - removing entities
+2024-03-04 18:09:57,011 - INFO - removing old workspaces
+2024-03-04 18:09:57,011 - INFO - removing old scene_objs
+2024-03-04 18:09:57,011 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:10:32,162 - INFO - removing old workspaces
+2024-03-04 18:10:32,162 - INFO - removing old scene_objs
+2024-03-04 18:10:32,163 - INFO - removing old workspaces
+2024-03-04 18:10:32,163 - INFO - removing old scene_objs
+2024-03-04 18:10:32,163 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:10:35,874 - INFO - removing old workspaces
+2024-03-04 18:10:35,874 - INFO - removing old scene_objs
+2024-03-04 18:10:35,875 - INFO - removing entities
+2024-03-04 18:10:35,875 - INFO - removing old workspaces
+2024-03-04 18:10:35,875 - INFO - removing old scene_objs
+2024-03-04 18:10:35,876 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:21:07,263 - INFO - removing old workspaces
+2024-03-04 18:21:07,263 - INFO - removing old scene_objs
+2024-03-04 18:21:07,264 - INFO - removing old workspaces
+2024-03-04 18:21:07,264 - INFO - removing old scene_objs
+2024-03-04 18:21:07,264 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:21:10,958 - INFO - removing old workspaces
+2024-03-04 18:21:10,961 - INFO - removing old scene_objs
+2024-03-04 18:21:10,962 - INFO - removing entities
+2024-03-04 18:21:10,963 - INFO - removing old workspaces
+2024-03-04 18:21:10,963 - INFO - removing old scene_objs
+2024-03-04 18:21:10,963 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:23:06,374 - INFO - removing old workspaces
+2024-03-04 18:23:06,374 - INFO - removing old scene_objs
+2024-03-04 18:23:06,375 - INFO - removing old workspaces
+2024-03-04 18:23:06,375 - INFO - removing old scene_objs
+2024-03-04 18:23:12,957 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:23:44,457 - INFO - removing old workspaces
+2024-03-04 18:23:44,460 - INFO - removing old scene_objs
+2024-03-04 18:23:44,461 - INFO - removing entities
+2024-03-04 18:29:45,196 - INFO - removing old workspaces
+2024-03-04 18:29:45,197 - INFO - removing old scene_objs
+2024-03-04 18:29:45,197 - INFO - removing old workspaces
+2024-03-04 18:29:45,198 - INFO - removing old scene_objs
+2024-03-04 18:29:45,198 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:29:49,052 - INFO - removing old workspaces
+2024-03-04 18:29:49,053 - INFO - removing old scene_objs
+2024-03-04 18:29:49,053 - INFO - removing entities
+2024-03-04 18:31:22,107 - INFO - removing old workspaces
+2024-03-04 18:31:22,108 - INFO - removing old scene_objs
+2024-03-04 18:31:22,108 - INFO - removing old workspaces
+2024-03-04 18:31:22,108 - INFO - removing old scene_objs
+2024-03-04 18:31:22,109 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:31:25,844 - INFO - removing old workspaces
+2024-03-04 18:31:25,844 - INFO - removing old scene_objs
+2024-03-04 18:31:25,844 - INFO - removing entities
+2024-03-04 18:32:47,809 - INFO - removing old workspaces
+2024-03-04 18:32:47,809 - INFO - removing old scene_objs
+2024-03-04 18:32:47,810 - INFO - removing old workspaces
+2024-03-04 18:32:47,810 - INFO - removing old scene_objs
+2024-03-04 18:32:47,811 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:32:51,162 - INFO - removing old workspaces
+2024-03-04 18:32:51,163 - INFO - removing old scene_objs
+2024-03-04 18:32:51,163 - INFO - removing entities
+2024-03-04 18:34:05,218 - INFO - removing old workspaces
+2024-03-04 18:34:05,219 - INFO - removing old scene_objs
+2024-03-04 18:34:05,219 - INFO - removing old workspaces
+2024-03-04 18:34:05,219 - INFO - removing old scene_objs
+2024-03-04 18:34:05,220 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:34:10,786 - INFO - removing old workspaces
+2024-03-04 18:34:10,786 - INFO - removing old scene_objs
+2024-03-04 18:34:10,787 - INFO - removing entities
+2024-03-04 18:34:10,788 - INFO - removing old workspaces
+2024-03-04 18:34:10,788 - INFO - removing old scene_objs
+2024-03-04 18:34:10,788 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:34:18,114 - INFO - removing old workspaces
+2024-03-04 18:34:18,117 - INFO - removing old scene_objs
+2024-03-04 18:34:18,118 - INFO - removing entities
+2024-03-04 18:34:18,121 - INFO - removing old workspaces
+2024-03-04 18:34:18,121 - INFO - removing old scene_objs
+2024-03-04 18:34:18,122 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 18:34:21,862 - INFO - removing old workspaces
+2024-03-04 18:34:21,862 - INFO - removing old scene_objs
+2024-03-04 18:34:21,863 - INFO - removing entities
+2024-03-04 18:34:21,864 - INFO - removing old workspaces
+2024-03-04 18:34:21,864 - INFO - removing old scene_objs
+2024-03-04 18:34:21,865 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:34:23,597 - INFO - removing old workspaces
+2024-03-04 18:34:23,600 - INFO - removing old scene_objs
+2024-03-04 18:34:23,601 - INFO - removing entities
+2024-03-04 18:34:23,604 - INFO - removing old workspaces
+2024-03-04 18:34:23,604 - INFO - removing old scene_objs
+2024-03-04 18:34:23,605 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:34:56,713 - INFO - removing old workspaces
+2024-03-04 18:34:56,716 - INFO - removing old scene_objs
+2024-03-04 18:34:56,718 - INFO - removing entities
+2024-03-04 18:34:56,721 - INFO - removing old workspaces
+2024-03-04 18:34:56,721 - INFO - removing old scene_objs
+2024-03-04 18:34:56,722 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 18:35:28,581 - INFO - removing old workspaces
+2024-03-04 18:35:28,584 - INFO - removing old scene_objs
+2024-03-04 18:35:28,585 - INFO - removing entities
+2024-03-04 18:35:28,589 - INFO - removing old workspaces
+2024-03-04 18:35:28,589 - INFO - removing old scene_objs
+2024-03-04 18:35:28,590 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 20:28:02,460 - INFO - removing old workspaces
+2024-03-04 20:28:02,460 - INFO - removing old scene_objs
+2024-03-04 20:28:02,460 - INFO - removing old workspaces
+2024-03-04 20:28:02,460 - INFO - removing old scene_objs
+2024-03-04 20:28:02,461 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 20:28:07,725 - INFO - removing old workspaces
+2024-03-04 20:28:07,725 - INFO - removing old scene_objs
+2024-03-04 20:28:07,726 - INFO - removing entities
+2024-03-04 20:28:07,727 - INFO - removing old workspaces
+2024-03-04 20:28:07,727 - INFO - removing old scene_objs
+2024-03-04 20:28:07,727 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 20:39:07,418 - INFO - removing old workspaces
+2024-03-04 20:39:07,418 - INFO - removing old scene_objs
+2024-03-04 20:39:07,418 - INFO - removing old workspaces
+2024-03-04 20:39:07,419 - INFO - removing old scene_objs
+2024-03-04 20:39:07,419 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
+2024-03-04 20:39:11,666 - INFO - removing old workspaces
+2024-03-04 20:39:11,666 - INFO - removing old scene_objs
+2024-03-04 20:39:11,667 - INFO - removing entities
+2024-03-04 20:39:11,667 - INFO - removing old workspaces
+2024-03-04 20:39:11,667 - INFO - removing old scene_objs
+2024-03-04 20:39:11,668 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/4/mdl/my workspace srgb.obj')
+2024-03-04 20:39:21,217 - INFO - removing old workspaces
+2024-03-04 20:39:21,220 - INFO - removing old scene_objs
+2024-03-04 20:39:21,221 - INFO - removing entities
+2024-03-04 20:39:21,225 - INFO - removing old workspaces
+2024-03-04 20:39:21,225 - INFO - removing old scene_objs
+2024-03-04 20:39:21,225 - INFO - Start loading url=PySide6.QtCore.QUrl('file:///H:/Умник/Qt3d based tracker/docs/configurator/projects/5/mdl/lab stend.obj')
